@@ -9,7 +9,7 @@
 /* Generics */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgrey
+    background-color: lightgrey;
 }
 
 /* Header */
@@ -40,14 +40,16 @@ body {
     line-height: 50px;
     margin: 0 auto;
     background-color: white;
-    margin-top: 20px;
-    border-bottom: 5px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
+    
+    
+
 
 .header-research {
     margin-left: 20px;
+    margin-top: 40px;
 }
 
 #task {
@@ -70,3 +72,47 @@ body {
     padding: 5px;
     border: 1px solid grey;
 }
+
+.container-body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 2px;
+}
+    
+.list {
+    padding: 40px;
+}
+
+h3 {
+    display: inline;
+}
+
+.circle-green {
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    color:green;
+    border: 1px solid green;
+    text-align: center;
+    display: inline-block;
+    margin-top: 18px;
+    font-size: 10px;
+}
+    
+
+.editorial {
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1px;
+    background-color: rgb(0, 162, 255);
+    display: inline-block;
+    color: white;
+    font-size: 10px;
+}
+    
