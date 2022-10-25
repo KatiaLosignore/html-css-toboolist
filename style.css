@@ -78,14 +78,20 @@ body {
     margin: 0 auto;
     background-color: white;
     margin-top: 2px;
+    padding:40px;
 }
     
-.list {
-    padding: 40px;
-}
+
 
 h3 {
-    display: inline;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+    
+#main-text {
+    margin-bottom: 10px;
 }
 
 .circle-green {
@@ -98,13 +104,13 @@ h3 {
     border: 1px solid green;
     text-align: center;
     display: inline-block;
-    margin-top: 18px;
+    margin-top: 15px;
     font-size: 10px;
 }
     
 
 .editorial {
-    width: 50px;
+    width: 60px;
     height: 20px;
     line-height: 20px;
     text-align: center;
@@ -115,4 +121,56 @@ h3 {
     color: white;
     font-size: 10px;
 }
-    
+
+.goals {
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1px;
+    background-color: rgb(146, 92, 146);
+    display: inline-block;
+    color: white;
+    font-size: 10px;
+}
+
+.circle-red {
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    color:red;
+    border: 1px solid red;
+    text-align: center;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 10px;
+}
+
+.recruiting {
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1px;
+    background-color: rgba(60, 134, 180, 0.815);
+    display: inline-block;
+    color: white;
+    font-size: 10px;
+}
+
+.orange {
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1px;
+    background-color: orange;
+    display: inline-block;
+    color: white;
+    font-size: 10px;
+}
