@@ -174,3 +174,29 @@ h3 {
     color: white;
     font-size: 10px;
 }
+
+.website {
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1px;
+    background-color: rgb(204, 96, 204);
+    display: inline-block;
+    color: white;
+    font-size: 10px;
+}
+
+.sales {
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1px;
+    background-color:rgb(113, 204, 71);
+    display: inline-block;
+    color: white;
+    font-size: 10px;
+}
